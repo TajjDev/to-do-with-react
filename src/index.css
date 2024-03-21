@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h4{
+  display: flex;
+  align-self: flex-end;
+  margin-top: -10px;
+  font-size: 12px;
+}
+.input{
+  width: 60%;
+  flex-wrap: wrap;
+  background-color: #0810ab3a;
+  border-radius: 10px;
+}
+input{
+  height: 40px;
+  padding-left: 10px;
+  font-size: 15px;
+  width:inherit;
+  margin-bottom: 20px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #646cff;
+}
+button {
+  
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-bottom: 20px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+h3{
+  margin: 0;
+  color: #646cff;
+  margin-bottom: 10px;
+}
+.task{
+  /* border: 2px solid greenyellow; */
+  width: 60%;
+  margin-top: 30px;
+  background-color: #00000058;
+  border-radius: 10px;
+}
+ol{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+li{
+  list-style-position: inside;
+  align-items: flex-start;
+  list-style-type: lower-roman;
+
+}
+h2{
+  color: #646cff;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background: linear-gradient(125deg, #535bf23f, #646cffbf);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
