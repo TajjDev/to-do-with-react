@@ -31,16 +31,12 @@ function App() {
     setTask([...array])
   }
 
- function updatetime(){
-  let current = new Date()
-  let curr = current.toUTCString()
-  return (curr)
- }
- setInterval(updatetime(), 1000);
- updatetime()
+let date ;
+    date = new Date().toUTCString();
+    date = date.split(' ').slice(1, 4).join(" ");
   return (
     <>
-    <h4>Date/Time: {updatetime()}</h4>
+    <h4>Date: {date}</h4>
       <InputSection value={input} change={() => newTask(event.target.value)} btnFunc={addToTaskArray}></InputSection>
       <Store task={
         Task.map((item, index) => {
