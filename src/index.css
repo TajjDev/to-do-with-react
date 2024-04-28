@@ -101,8 +101,8 @@ body {
   justify-content: center;
   place-items: center;
   width:100%;
-  min-width: 320px;
-  min-height: 100vh;
+/*   min-width: 320px; */
+  height: 100%;
 }
 
 h1 {
