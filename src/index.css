@@ -19,7 +19,7 @@ h4{
   font-size: 12px;
 }
 .input{
-  width: 60%;
+  width: 80%;
   flex-wrap: wrap;
   background-color: #0810ab3a;
   border-radius: 10px;
@@ -63,7 +63,7 @@ h3{
 }
 .task{
   /* border: 2px solid greenyellow; */
-  width: 60%;
+  width: 80%;
   margin-top: 30px;
   background-color: #00000058;
   border-radius: 10px;
