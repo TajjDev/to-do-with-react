@@ -96,7 +96,10 @@ a:hover {
 body {
 /*   background: linear-gradient(125deg, #535bf23f, #646cffbf); */
   margin: 0;
-  background:url('/src/assets/todoReactBg.png') no-repeat fixed center;
+  background:url('/src/assets/todoReactBg.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   place-items: center;
